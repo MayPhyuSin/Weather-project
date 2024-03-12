@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather project</title>
+  <link rel="stylesheet" href="fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="search-box">
+      <i class="fas fa-location-dot"></i>
+      <input type="text" placeholder="enter your location">
+      <button class="fas fa-search"></button>
+    </div>
+
+    <div class="weather-box">
+      <div class="box">
+        <div class="info-weather">
+          <div class="weather">
+            <img src="images/cloud.png" alt="">
+            <p class="temperature">0<span>°C</span></p>
+            <p class="description">Broken Clouds</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="weather-details">
+      <div class="humidity">
+        <i class="fas fa-water"></i>
+        <div class="text">
+          <div class="info-humidity">
+            <span>0%</span>
+          </div>
+          <p>Humidity</p>
+        </div>
+      </div>
+
+      <div class="wind">
+        <i class="fas fa-wind"></i>
+        <div class="text">
+          <div class="info-wind">
+            <span>0Km/h</span>
+          </div>
+          <p>Wind Speed</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="not-found">
+      <div class="box">
+        <img src="images/404.png" alt="#">
+        <p>Oops! Location not found!</p>
+      </div>
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
